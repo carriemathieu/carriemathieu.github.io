@@ -1,11 +1,11 @@
 # Site settings
 author: Carrie Mathieu
-title: 
+title: From Psych to Tech
 header-img: img/home-bg.png
 email: carrieburks@gmail.com
 copyright_name: Carrie Mathieu
 description: > # this means to ignore newlines until "baseurl:"
-  
+  My Journey
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  carriemathieu
