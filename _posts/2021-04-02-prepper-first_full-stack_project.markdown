@@ -1,14 +1,16 @@
 ---
 layout: post
 title:      "prepper-first full-stack project"
-date:       2021-04-02 21:26:46 +0000
+date:       2021-04-02 17:26:46 -0400
 permalink:  prepper-first_full-stack_project
 ---
 
 #### What is it?
-In prepper, you can choose a category- right now, the options are Ruby, Rails, or Javascript. Each category has a list of words (word_list) covering a certain topic within that category (for example: Ruby Basics, Intermediate Rails, etc.). Each word_list consists of 10 words.
+In prepper, a user can choose a category- Ruby, Rails, or Javascript. Each category contains several different word lists related to that category (for example: Ruby Basics, Intermediate Ruby, etc.). Each word list consists of 10 words. These 10 words are not shown to the user; they can only see the title of the list.
 
-When you open the page, you have the option to choose a category or create a new list. If you choose a category, you then have the option to choose a word_list by the word_list title. Once you've selected your word_list, you click "I'm Ready", then start speaking. The Web Speech API will listen to you speak - the goal is to say as many words from the word_list as possible in 30 seconds. Once 30 seconds is up, you're presented with your results!
+When a user opens the page, they have the option to select a category or create a new list. If they choose a category, they then have the option to select one of the word lists in that category. Once a user has selected a word list and clicks "I'm Ready", the Web Speech API will start listening. The goal is to say as many words as possible from the selected word list, knowing only the title of the list, in 30 seconds. Once 30 seconds is up, a user is presented with the results!
+
+The game is similar to the popular TV show Family Fued. This app was created to help users prepare for any event where it's important that they remember to mention specific key words. A user can also create their own list and test their knowledge in preparation for an event such as an exam or interview.
 
 #### Challenges
 * The first challenge is that the Web Speech API is currently *only* supported on Chrome or Edge. 
